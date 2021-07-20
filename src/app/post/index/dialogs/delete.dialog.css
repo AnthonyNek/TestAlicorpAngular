@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+
+  .mat-form-field {
+    display: block;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+.close-button{
+  float: right;
+  top:-24px;
+  right:-25px;
+}
+
+
+button {
+  width: 100px; 
+  margin: 0 auto; 
+  display: block;
+}
+.mat-dialog-title
+{
+  text-align:center;
+}
+.close-icon {
+  transition: 1s ease-in-out;
+}
